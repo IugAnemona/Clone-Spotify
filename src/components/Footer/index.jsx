@@ -8,34 +8,34 @@ export class Footer extends Component {
       <footer>
         <div className="grid grid-cols-1 md:grid-cols-6 bg-black text-white p-4 md:p-20">
           <div className="md:col-span-1 pt-10 md:pt-0">
-            <a href="#">
+            <a href="#home">
               <img src={Logo} alt="Spotify" className="w-20 md:w-132px"></img>
             </a>
           </div>
           <div className="md:col-span-1 pt-10 md:pt-4">
             <h3 className="uppercase text-gray-500 font-bold text-xs tracking-widest mb-5">Empresa</h3>
             <ul>
-                <li className="mb-5"><a href="#">Sobre</a></li>
-                <li className="mb-5"><a href="#">Empregos</a></li>
-                <li className="mb-5"><a href="#">For the Record</a></li>
+                <li className="mb-5"><a href="#home">Sobre</a></li>
+                <li className="mb-5"><a href="#home">Empregos</a></li>
+                <li className="mb-5"><a href="#home">For the Record</a></li>
             </ul>
           </div>
           <div className="md:col-span-1 pt-10 md:pt-4">
             <h3 className="uppercase text-gray-500 font-bold text-xs tracking-widest mb-5">Comunidades</h3>
             <ul>
-                <li className="mb-5"><a href="#">Para Artistas</a></li>
-                <li className="mb-5"><a href="#">Desenvolvedores</a></li>
-                <li className="mb-5"><a href="#">Publicidade</a></li>
-                <li className="mb-5"><a href="#">Investidores</a></li>
-                <li className="mb-5"><a href="#">Fornecedores</a></li>
+                <li className="mb-5"><a href="#home">Para Artistas</a></li>
+                <li className="mb-5"><a href="#home">Desenvolvedores</a></li>
+                <li className="mb-5"><a href="#home">Publicidade</a></li>
+                <li className="mb-5"><a href="#home">Investidores</a></li>
+                <li className="mb-5"><a href="#home">Fornecedores</a></li>
             </ul>
           </div>
           <div className="md:col-span-1 pt-10 md:pt-4">
             <h3 className="uppercase text-gray-500 font-bold text-xs tracking-widest mb-5">Comunidades</h3>
             <ul>
-                <li className="mb-5"><a href="#">Ajuda</a></li>
-                <li className="mb-5"><a href="#">Player da web</a></li>
-                <li className="mb-5"><a href="#">Aplicativo móvel grátis</a></li>
+                <li className="mb-5"><a href="#home">Ajuda</a></li>
+                <li className="mb-5"><a href="#home">Player da web</a></li>
+                <li className="mb-5"><a href="#home">Aplicativo móvel grátis</a></li>
             </ul>
           </div>
           <div className="md:col-span-2 pt-10 md:pt-4">
@@ -53,11 +53,11 @@ export class Footer extends Component {
           </div>
           <div className="md:col-span-4 mt-20">
             <ul>
-                <li className="inline-block text-xs text-gray-600 mr-4"><a href="google.com">Legal</a></li>
-                <li className="inline-block text-xs text-gray-600 mr-4"><a href="google.com">Centro de Privacidade</a></li>
-                <li className="inline-block text-xs text-gray-600 mr-4"><a href="google.com">Política de Privacidade</a></li>
-                <li className="inline-block text-xs text-gray-600 mr-4"><a href="google.com">Cookies</a></li>
-                <li className="inline-block text-xs text-gray-600 mr-4"><a href="google.com">Sobre anúncios</a></li>
+                <li className="inline-block text-xs text-gray-600 mr-4"><a href="#home">Legal</a></li>
+                <li className="inline-block text-xs text-gray-600 mr-4"><a href="#home">Centro de Privacidade</a></li>
+                <li className="inline-block text-xs text-gray-600 mr-4"><a href="#home">Política de Privacidade</a></li>
+                <li className="inline-block text-xs text-gray-600 mr-4"><a href="#home">Cookies</a></li>
+                <li className="inline-block text-xs text-gray-600 mr-4"><a href="#home">Sobre anúncios</a></li>
             </ul>
           </div>
           <div className="md:col-span-2 mt-20">
