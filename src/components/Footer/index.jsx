@@ -8,34 +8,34 @@ export class Footer extends Component {
       <footer>
         <div className="grid grid-cols-1 md:grid-cols-6 bg-black text-white p-4 md:p-20">
           <div className="md:col-span-1 pt-10 md:pt-0">
-            <a href="google.com">
+            <a href="#">
               <img src={Logo} alt="Spotify" className="w-20 md:w-132px"></img>
             </a>
           </div>
           <div className="md:col-span-1 pt-10 md:pt-4">
             <h3 className="uppercase text-gray-500 font-bold text-xs tracking-widest mb-5">Empresa</h3>
             <ul>
-                <li className="mb-5"><a href="google.com">Sobre</a></li>
-                <li className="mb-5"><a href="google.com">Empregos</a></li>
-                <li className="mb-5"><a href="google.com">For the Record</a></li>
+                <li className="mb-5"><a href="#">Sobre</a></li>
+                <li className="mb-5"><a href="#">Empregos</a></li>
+                <li className="mb-5"><a href="#">For the Record</a></li>
             </ul>
           </div>
           <div className="md:col-span-1 pt-10 md:pt-4">
             <h3 className="uppercase text-gray-500 font-bold text-xs tracking-widest mb-5">Comunidades</h3>
             <ul>
-                <li className="mb-5"><a href="google.com">Para Artistas</a></li>
-                <li className="mb-5"><a href="google.com">Desenvolvedores</a></li>
-                <li className="mb-5"><a href="google.com">Publicidade</a></li>
-                <li className="mb-5"><a href="google.com">Investidores</a></li>
-                <li className="mb-5"><a href="google.com">Fornecedores</a></li>
+                <li className="mb-5"><a href="#">Para Artistas</a></li>
+                <li className="mb-5"><a href="#">Desenvolvedores</a></li>
+                <li className="mb-5"><a href="#">Publicidade</a></li>
+                <li className="mb-5"><a href="#">Investidores</a></li>
+                <li className="mb-5"><a href="#">Fornecedores</a></li>
             </ul>
           </div>
           <div className="md:col-span-1 pt-10 md:pt-4">
             <h3 className="uppercase text-gray-500 font-bold text-xs tracking-widest mb-5">Comunidades</h3>
             <ul>
-                <li className="mb-5"><a href="google.com">Ajuda</a></li>
-                <li className="mb-5"><a href="google.com">Player da web</a></li>
-                <li className="mb-5"><a href="google.com">Aplicativo móvel grátis</a></li>
+                <li className="mb-5"><a href="#">Ajuda</a></li>
+                <li className="mb-5"><a href="#">Player da web</a></li>
+                <li className="mb-5"><a href="#">Aplicativo móvel grátis</a></li>
             </ul>
           </div>
           <div className="md:col-span-2 pt-10 md:pt-4">

@@ -9,7 +9,7 @@ export class NavBar extends Component {
         <div className="flex fixed bg-black w-full px-3 md:px-20 py-4">
           <div className="container flex items-center mx-auto">
           <div>
-            <a href="google.com">
+            <a href="#">
               <img src={Logo} alt="spotify" className="w-20 md:w-125px"></img>
             </a>
           </div>
@@ -20,22 +20,22 @@ export class NavBar extends Component {
             <nav className="flex-1">
               <ul className="flex justify-end flex-1">
                 <li className="px-4">
-                  <a href="google.com" className="hover:text-hoverspt text-sm">Premium</a>
+                  <a href="#" className="hover:text-hoverspt text-sm">Premium</a>
                 </li>
                 <li className="px-4">
-                  <a href="google.com" className="hover:text-hoverspt text-sm">Ajuda</a>
+                  <a href="#" className="hover:text-hoverspt text-sm">Ajuda</a>
                 </li>
                 <li className="px-4">
-                  <a href="google.com" className="hover:text-hoverspt text-sm">Baixar</a>
+                  <a href="#" className="hover:text-hoverspt text-sm">Baixar</a>
                 </li>
                 <li className="px-4">
                   <span className="border-r border-white"></span>
                 </li>
                 <li className="px-4">
-                  <a href="google.com" className="hover:text-hoverspt text-sm">Inscrever-se</a>
+                  <a href="#" className="hover:text-hoverspt text-sm">Inscrever-se</a>
                 </li>
                 <li className="px-4">
-                  <a href="google.com" className="hover:text-hoverspt text-sm">log In</a>
+                  <a href="#" className="hover:text-hoverspt text-sm">log In</a>
                 </li>
               </ul>
             </nav>
